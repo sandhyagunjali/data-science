@@ -1,0 +1,16 @@
+years=int(input("Enter survival years : "))
+category=(input("Choose the category : "))
+if(category == "m") :
+  print("Months: ",years*12)
+elif(category == "w") :
+  print("weeks: ",(years*52))
+elif(category == "d") :
+  print("Days: ",((years*365)))
+elif(category == "h") :
+  print("Hours: ",((years*365*24)))
+elif(category == "mn") :
+  print("Mimutes: ",((years*365*24*60)))
+elif(category == "s") :
+  print("Seconds: ",((years*365*24*60*60)))
+else :
+  print("Enter valid category key")
